@@ -5,13 +5,22 @@
 }
 body {
     font-family: sans-serif;
+    background-image:url("images/R.jpg");
 }
 
 nav{
     height: 10vh;
-    background: #5b78c7;
+    background: lightskyblue;
+    border-bottom: 4px solid white;
+    
 }
 
+.text {
+    display: flex;
+    padding: 1%;
+    color: white;
+    font-size: 25px;
+}
 .nav-Links{
     display: flex;
     list-style: none;
@@ -25,7 +34,7 @@ nav{
 .nav-Links li a {
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: px;
 }
 .Landing {
     height: 90vh;
@@ -62,19 +71,21 @@ nav{
     }
     .nav-Links {
         position: fixed;
-        background: #5b78c7;
+        background: lightskyblue;
         height: 100vh;
         width: 100%;
         flex-direction: column;
-        clip-path: circle(50px at 90% -10%);
-        -webkit-clip-path: circle(50px at 90% -10%);
+        clip-path: circle(1px at 90% -10%);
+        -webkit-clip-path: circle(1px at 90% -10%);
         transition: all 1s ease-out; 
         pointer-events: all;
+        
     
     }
     .nav-Links.open{
         clip-path: circle(1500px at 90% -10%);
         -webkit-clip-path: circle(1500px at 90% -10%);
+    
     }
     .Landing {
         flex-direction: column;
