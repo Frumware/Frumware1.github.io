@@ -50,7 +50,7 @@ nav{
     color: #ae5fce;
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 10000px) {
 
     .line{
         width: 30px;
