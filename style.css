@@ -83,8 +83,8 @@ nav{
     
     }
     .nav-Links.open{
-        clip-path: circle(1500px at 90% -10%);
-        -webkit-clip-path: circle(1500px at 90% -10%);
+        clip-path: circle(2800px at 90% -10%);
+        -webkit-clip-path: circle(2800px at 90% -10%);
     
     }
     .Landing {
